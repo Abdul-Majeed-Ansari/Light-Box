@@ -1,0 +1,55 @@
+.img{
+    width: 100%;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+#PopUp{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.568);
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    z-index: 9999999;
+    display: none;
+}
+
+#PopUp #left{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    cursor: pointer;
+}
+
+#PopUp #right{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+}
+
+#PopUp #mainPopUpImg{
+    width: 80%;
+    height: 80vh;
+    margin: 5px 5px;
+}
+
+#PopUp #close img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
